@@ -15,12 +15,21 @@ function Signup() {
     let field, fieldValue;
     const handleChange = (e) => {
         field = e.target.name;
-        console.log(field);
         fieldValue = e.target.value;
         setUserData({ ...userData, [field]: fieldValue });
     }
     const handleSubmit = (e) => {
-        alert("Form has been submitted successfully!!!");
+        // alert("Form has been submitted successfully!!!");
+        e.preventDefault();
+        console.log(JSON.stringify(userData))
+        // const {uName, uEmail, uPassword , cPassword}=userData;
+        fetch('http://localhost:3001/redirect-page', {
+            method: 'POST',
+            body: JSON.stringify(userData)
+          }).then(function(response) {
+            return response.json();
+          });
+        
     }
     return (
         <div className='form-container'>

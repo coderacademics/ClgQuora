@@ -1,11 +1,12 @@
-import mongoose from 'mongoose';
+const  mongoose =require('mongoose')
+mongoose.set('strictQuery',true)
 const { Schema } = mongoose;
 
 const userSignupSchema = new Schema({
   username:{
     type : String,
     require : true,
-    unique : true
+    unique:false
   },
   userEmailAddress:{
     type: String,
@@ -15,7 +16,12 @@ const userSignupSchema = new Schema({
   password:{
     type:String,
     require: true,
+  },
+  cpassword:{
+    type:String,
+    require:true
   }
 });
 
-module.exports=mongoose.model('UserSignup',userSignupSchema);
+const Signup=mongoose.model('UserSignup',userSignupSchema);
+module.exports=Signup;
