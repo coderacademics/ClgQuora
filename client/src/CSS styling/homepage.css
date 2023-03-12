@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: #8AAA79;
+}
+.nav_vertical{
+   position: absolute;
+   top:45vh ;
+   left: 0;
+}
+.navlinks_v{
+    display: inline-block;
+    padding-top: 0.35em;
+    margin: 0;
+    font-size: small;
+}
+
+.navlinks{
+    margin-left: 60vw;
+    padding-bottom: 1.5em;
+    padding-top: 1em;
+    color: white;
+    font-style: 500;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+.link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color:white;
+    zoom: 110%;
+}
+.ver_link{
+    text-decoration: none;
+    color: black;
+
+}
+.ver_link:hover{
+    color:red;
+}
+li{
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 1em;
+}
+.slide1{
+    height: 100vh;
+}
+.Hello{
+    font-weight: 600;
+    font-size: 5em;
+    margin-top: 25vh;
+    text-align: center;
+    margin-bottom: auto;
+}
+.message{
+    text-align: center;
+    word-spacing: 0.1em;
+    line-height: 115%;
+    font-weight: 500;
+    font-size: 125%;
+}
+.btn{
+    text-align: center;
+    margin-left: 47vw;
+}
+.slide2{
+    margin-top: 0vh;
+    background-color: #c4c7c2;
+    /* height: 100vh; */
+    overflow:hidden;
+}
+
+.slide3{
+    height: 98vh;
+    background-color: rgb(14, 34, 161);
+}
+.msg_slide3{
+    margin-top: 4em;
+    text-align: right;
+    color:white;
+    padding-left: 20em;
+}
+.grad{
+    font-size: 4.5em;
+    font-weight: 600;
+}
+.msg{
+    font-size: 1.2em;
+    padding-top: 1em;
+    font-weight: 600;
+}
+.slide4{
+    height: 98vh;
+    background-color: rgb(14, 34, 161);
+}
+.msg_slide4{
+    margin-top: 4em;
+    text-align: right;
+    color:white;
+    padding-left: 20em;
+}
+.nostal_notes{
+    font-size: 1.2em;
+    padding-top: 1em;
+    font-weight: 600;
+}
+.nostal{
+    font-size: 4.5em;
+    font-weight: 600;
+}
+
+
+.footer{
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    max-width: fit-content;
+    background-color: aquamarine;
+    border-radius: 3em;
+    margin: 1em;
+    padding-top: 0;
+    font-size: 1em;
+    align-items: center;
+}
+.footer_items{
+    display: inline;
+    padding: 0.6em;
+    margin: 0;
+
+}
+.profile_pic{
+    height: 8vh;
+    width: 3.5vw;
+    border-radius: 50%;
+
+}
+.icon{
+    zoom: 120%;
+    padding-right: 1.5em;
+}
+.icon:hover{
+   cursor: pointer;
+}
+.name .post{
+    padding: 0;
+    margin: 0;
+    line-height:0;
+}

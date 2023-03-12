@@ -1,0 +1,14 @@
+.form-container{
+    margin-top: 12vh;
+    padding: 3em;
+    display: flex;
+    margin-left: 20em;
+    margin-right: 20em;
+}
+img{
+    height: 40vh;
+    width: 20vw;
+}
+.input{
+   width: 25em;
+}
